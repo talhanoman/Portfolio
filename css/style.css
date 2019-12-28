@@ -1,0 +1,39 @@
+@font-face {
+  font-family: myFont;
+  src: url(../geometria-light-webfont.woff);
+}
+
+.indexBody {
+  font-family: myFont;
+  background-image: url("../images/bg2.jpg");
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.projectBody {
+  font-family: myFont;
+  color: white;
+  background-size: auto;
+  background-image: url("../images/bg2.jpg");
+}
+.aboutBody {
+  font-family: myFont;
+  color: white;
+  background-size: auto;
+  background-image: url("../images/bg2.jpg");
+}
+.personalStatement {
+  border-color: #f50057;
+  border-radius: 3px;
+}
+
+.activator {
+  height: 160px;
+}
+.card {
+  border-radius: 5px;
+}
+.row .col {
+  padding: 0;
+}
