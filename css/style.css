@@ -6,10 +6,14 @@
 .indexBody {
   font-family: myFont;
   background-image: url("../images/bg2.jpg");
-  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+}
+@media only screen and (max-width: 600px) {
+  .indexBody {
+    background-size: auto;
+  }
 }
 .projectBody {
   font-family: myFont;
